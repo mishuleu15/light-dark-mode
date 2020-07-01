@@ -8,11 +8,10 @@ const textBox = document.getElementById('text-box');
 
 // Dark or Light Images
 function imageMode(color) {
-  image1.src = `/undraw_Designer_${color}.svg`;
-  image2.src = `/undraw_solution_mindset_${color}.svg`;
-  image3.src = `/undraw_data_reports_${color}.svg`;
+  image1.src = `/undraw_Designer_${color}.svg?sanitize=true`;
+  image2.src = `/undraw_solution_mindset_${color}.svg?sanitize=true`;
+  image3.src = `/undraw_data_reports_${color}.svg?sanitize=true`;
 }
-
 
 
 // Dark Mode Styles
